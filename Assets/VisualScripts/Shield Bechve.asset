@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Shield Bechve
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[{"name":"Timer","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsAlive","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsWating","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"85d48445-45f8-40da-b87c-0a85eadc9855","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-330.0,"y":-26.0},"guid":"4f54b10c-87f6-43e8-9911-c9dc48e44740","$version":"A","$type":"Unity.VisualScripting.Update","$id":"14"},{"specifyFallback":false,"kind":"Graph","defaultValues":{"name":{"$content":"Timer","$type":"System.String"}},"position":{"x":-145.0,"y":2.0},"guid":"66943415-5fdd-45ea-ae15-496a4d315d98","$version":"A","$type":"Unity.VisualScripting.GetVariable"},{"inputCount":2,"defaultValues":{},"position":{"x":27.0,"y":22.0},"guid":"8d829255-085d-495c-bd54-1d3240b5adc5","$version":"A","$type":"Unity.VisualScripting.GenericSum","$id":"18"},{"member":{"name":"deltaTime","parameterTypes":null,"targetType":"UnityEngine.Time","targetTypeName":"UnityEngine.Time","$version":"A"},"defaultValues":{},"position":{"x":-60.0,"y":153.0},"guid":"72724de2-5e26-4027-a7bf-dd64fa8d431f","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"20"},{"kind":"Graph","defaultValues":{"name":{"$content":"Timer","$type":"System.String"}},"position":{"x":-11.0,"y":-240.0},"guid":"c788dfda-9c6b-421e-b1f7-5113d97910d8","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"23"},{"sourceUnit":{"$ref":"14"},"sourceKey":"trigger","destinationUnit":{"$ref":"23"},"destinationKey":"assign","guid":"dd97b064-c839-4c8e-8fab-9dcbe9476ad8","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"value","destinationUnit":{"$ref":"18"},"destinationKey":"1","guid":"67fd3059-e886-4749-92ad-a8e03c3e43e8","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"sum","destinationUnit":{"$ref":"23"},"destinationKey":"input","guid":"4cbab286-ebcc-4b5e-8076-0903392182c6","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

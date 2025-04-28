@@ -3,17 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - bullet
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - enemy
   - Water
   - UI
+  - player
   - 
-  - 
-  - 
+  - bg
   - 
   - 
   - 
@@ -38,6 +39,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BG
+    uniqueID: 4064466713
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: effect
+    uniqueID: 2489536453
+    locked: 0
+  - name: New Layer 3
+    uniqueID: 1415063497
     locked: 0
